@@ -1,0 +1,38 @@
+.createButton {
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 16px;
+    padding: 16px;
+    width: 200px;
+    background-color: #2096ab;
+}
+
+.propertiesContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 8px;
+    margin: 16px 0;
+}
+
+.updateButton,
+.deleteButton {
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 8px;
+    margin: 8px;
+    margin-left: 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+.updateButton {
+    background-color: #2096ab;
+}
+
+.deleteButton {
+    background-color: #b44;
+}

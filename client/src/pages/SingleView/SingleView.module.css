@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+.mainContainer {
+}
+
+h1,
+h2 {
+  font-size: 45px;
+  color: #135f6d;
+}
+
+
+p {
+  font-size: 25px;
+  color: #555555;
+}
+
+.sectionContainer {
+  margin-bottom: 140px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.container {
+  width: 50%;
+  height: 80vh;
+}
+
+.infoContainer {
+  width: 50%;
+}
+
+.containerPadding {
+  padding: 0 140px;
+}
+
+.spaceBetween {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* SECTION 1 */
+
+.title {
+  margin: 30px 0 50px 0;
+}
+
+.widgetWrapperContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #2096ab;
+}
+
+.widgetWrapperItem {
+  display: flex;
+  align-items: center;
+}
+
+.widgetIcon {
+  margin-right: 5px;
+}
+
+.widgetValue p, .widgetIcon {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.imageContainer {
+  width: 100%;
+  height: 100%;
+  border-top: 5px #2096ab solid;
+
+  background-color: #43cea2;
+}
+
+/* SECTION 2 */
+
+.propertyInfoTitle {
+  margin-bottom: 50px;
+}
+
+.propertyInfoItem {
+  margin-bottom: 25px;
+}
+
+.bookingContainer {
+  margin: 0 auto;
+  padding: 20px;
+  width: 500px;
+
+  background: transparent linear-gradient(169deg, #2096ab 0%, #43cea2 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 10px;
+}
+
+.bookingContainer h3,
+.bookingContainer h2 {
+  color: #ffffff;
+}
+
+.form {
+  display: grid;
+  margin: 20px 0;
+  grid-gap: 20px;
+}
+
+.inputCheckout {
+  margin-right: 5px;
+}
+
+.submitButton {
+  box-shadow: 0px 0px 6px #55555580;
+  border-radius: 10px;
+  height: 60px;
+  width: 100%;
+  padding: 8px 16px;
+  background-color: #ffffff;
+  color: #135f6d;
+  font-size: 24px;
+  border: none;
+}
+
+.bookingInfo p {
+  color: #ffffff;
+}

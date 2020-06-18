@@ -1,0 +1,54 @@
+.mainContainer {
+  padding: 0 140px;
+}
+
+.container {
+  margin: 50px 0 0 0;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.wrapperContainer {
+  width: 50%;
+}
+
+.wrapperContent {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.deleteButton {
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 8px;
+  margin: 8px;
+  margin-left: 0;
+  font-size: 16px;
+  color: #fff;
+  background-color: #b44;
+  border: none;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.updateButton {
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  padding: 8px;
+  margin: 8px;
+  margin-left: 0;
+  font-size: 16px;
+  color: #fff;
+  background-color: #2096ab;
+  border: none;
+  width: 200px;
+}
